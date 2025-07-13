@@ -1,0 +1,91 @@
+
+.price_container {
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 2px solid lightblue ;
+}
+
+
+.selection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    min-width: 200px;
+}
+
+.selection select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.tarif .fees {
+    background-color: #e8f1ff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.tarif table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.tarif table, .tarif th, .tarif td {
+    border: 1px solid #ccc;
+}
+
+.tarif th, .tarif td {
+    padding: 10px;
+    text-align: left;
+}
+
+.details {
+    background-color: #e8f1ff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.details p {
+    margin: 5px 0;
+}
+
+.details strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.details span {
+    display: block;
+    margin-left: 20px;
+    color: #333;
+}
+
+.tarif #th1
+{
+    text-align: center;
+    background-color:rgb(195, 14, 14); 
+    color: #ccc;
+    font-weight: bold;
+}
+
+.tarif #th2
+{
+    text-align: center;
+    background-color:rgb(79, 132, 150);  
+    color: #ccc;
+    font-weight: bold;
+}
+
+.tarif #th3
+{
+    text-align: center;
+    background-color:rgb(37, 180, 56);  
+    color: #ccc;
+    font-weight: bold;
+}
