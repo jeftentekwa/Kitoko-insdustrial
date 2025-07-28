@@ -83,7 +83,7 @@
 
 
     // Header carousel
-   $(".header-carousel").owlCarousel({
+  /* $(".header-carousel").owlCarousel({
         autoplay: false,
         smartSpeed: 1500,
         items: 1,
@@ -94,11 +94,12 @@
             '<i class="bi bi-chevron-left"></i>',
             '<i class="bi bi-chevron-right"></i>'
         ]
-    });
-
+    }); */
+     
+   
 
     // Testimonials carousel
-    $(".testimonial-carousel").owlCarousel({
+   /* $(".testimonial-carousel").owlCarousel({
         autoplay: false,
         smartSpeed: 1000,
         center: true,
@@ -115,7 +116,7 @@
                 items:3
             }
         }
-    });
+    }); */
     
 })(jQuery);
 
