@@ -13,7 +13,7 @@ function updateTable() {
         'Kinshasa': {
             'Air Freight': `
                 <div class="fees">
-                    <p><strong>Price per Kg / prix pas Kilo : $19.99</strong></p>
+                    <p><strong>Price per Kg / prix par Kilo : $19.99</strong></p>
                     <p><strong>23Kg Suitcase / valise de 23Kg :</strong>$400.00</p>
                 </div>
     
@@ -23,7 +23,7 @@ function updateTable() {
         'Lubumbashi': {
             'Air Freight': `
                 <div class="fees">
-                    <p><strong>Price per Kg / prix pas Kilo : $24.99</strong></p>
+                    <p><strong>Price per Kg / prix par Kilo : $24.99</strong></p>
                     <p><strong>23Kg Suitcase / valise de 23Kg :</strong>$550.00</p>
                 </div>
             `,
@@ -32,7 +32,7 @@ function updateTable() {
         'Matadi': {
             'Air Freight': `
                 <div class="fees">
-                    <p><strong>Price per Kg / prix pas Kilo : $24.99</strong></p>
+                    <p><strong>Price per Kg / prix par Kilo : $24.99</strong></p>
                     <p><strong>23Kg Suitcase / valise de 23Kg :</strong>$550.00</p>
                 </div>
             `,
@@ -41,7 +41,7 @@ function updateTable() {
         'Kolwezi': {
             'Air Freight': `
             <div class="fees">
-            <p><strong>Price per Kg / prix pas Kilo : $29.99</strong></p>
+            <p><strong>Price per Kg / prix par Kilo : $29.99</strong></p>
             <p><strong>23Kg Suitcase / valise de 23Kg :</strong>$660.00</p>
         </div>
         

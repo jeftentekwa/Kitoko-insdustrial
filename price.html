@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Toto Mbayo</title>
+    <title>ExpressLink</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -30,45 +30,45 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/price.css" rel="stylesheet">
-
 </head>
 
 <body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow  bg-info" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Patientez...</span>
+            <span class="sr-only">Hold on...</span>
         </div>
     </div>
     <!-- Spinner End -->
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-secondary sticky-top p-0">
-       <div class="logo">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5  sticky-top p-0">
+
+        <div class="logo">
     <a href="index.html">
-      <img src="img/Toto.PNG" alt="Toto Link Logo" class="logo-img">
+      <img src="img/Toto.PNG" alt="Toto Link Logo" class="logo-img" height="1000" width="400">
     </a>
        </div>
+
+
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="index.html" class="nav-item nav-link ">Home</a>
                 <a href="service.html" class="nav-item nav-link">Services</a>
-                <div class="nav-item dropdown">
+                <a href="price.html" class="nav-item nav-link active">Pricing Plan</a>
+                <!--<div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
                     <div class="dropdown-menu fade-up m-0">
-                        <a href="price.html" class="dropdown-item active">Pricing Plan</a>
-                        <a href="assurance.html" class="dropdown-item">Assurance</a>
-                        
+                        <a href="price.html" class="dropdown-item">Pricing Plan</a>
                     </div>
-                </div>
-                <a href="quote.html" class="nav-item nav-link">Free Quote</a>
+                </div> -->
+                <a href="#quote" class="nav-item nav-link">Free Quote</a>
             </div>
-            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-phone   text-secondary me-3"></i>+1 678 732 4782</h4>
+            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-phone   text-secondary me-3"></i>678-451-0735</h4>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -111,7 +111,6 @@
                 <option value="Lubumbashi">Lubumbashi</option>
                 <option value="Kinshasa">Matadi</option>
                 <option value="Lubumbashi">Kolwezi</option>
-
             </select>
             <select id="transport" onchange="updateTable()">
                 <option value="Fret Aérien">Type of Freight</option>
@@ -129,15 +128,15 @@
    
         
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s">
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s">
   <div class="container py-5">
     <div class="row justify-content-center text-center align-items-start">
       <div class="col-lg-3 col-md-6 mb-4">
         <h4 class="text-light mb-4">Address</h4>
-        <p class="mb-2"><i class="fa fa-map-marker-alt me-2"></i>Somewhere, Georgia, USA</p>
-        <p class="mb-2"><i class="fa fa-phone-alt me-2"></i>+1 678 732 4782</p>
-        <p class="mb-2"><i class="fa fa-envelope me-2"></i>info@example.com</p>
+        <p class="mb-2"><i class="fa fa-map-marker-alt me-2"></i>1435 Boggs Rd Apt 707, Duluth Georgia, USA</p>
+        <p class="mb-2"><i class="fa fa-phone-alt me-2"></i>+1 678 451 0735</p>
+        <p class="mb-2"><i class="fa fa-envelope me-2"></i>info@expresslinkusa.com</p>
       </div>
       <div class="col-lg-3 col-md-6 mb-4 d-flex flex-column">
         <h4 class="text-light mb-4">Services</h4>
@@ -153,10 +152,10 @@
         <h4 class="text-light mb-4">Quick Links</h4>
         <ul class="list-unstyled m-0">
           <li><a class="text-light" href="about.html">About Us</a></li>
-          <li><a class="text-light" href="contact.html">Contact Us</a></li>
+          <li><a class="text-light" href="">Contact Us</a></li>
           <li><a class="text-light" href="service.html">Our Services</a></li>
-          <li><a class="text-light" href="FAQ.html">FAQs</a></li>
-          <li><a class="text-light" href="contact.html">Support</a></li>
+          <li><a class="text-light" href="">FAQs</a></li>
+          <li><a class="text-light" href="">Support</a></li>
         </ul>
       </div>
     </div>
@@ -164,9 +163,8 @@
 </div>
     <!-- Footer End -->
 
-
     <!-- Back to Top -->
-    <a href="https://wa.me/16787324782" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://wa.me/16787324782" class="btn btn-lg btn-success btn-lg-square back-to-top"><i class="fab fa-whatsapp"></i></a>
 
 
     <!-- JavaScript Libraries -->
@@ -180,7 +178,6 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <script src="js/price.js"></script>
     
 </body>
 
